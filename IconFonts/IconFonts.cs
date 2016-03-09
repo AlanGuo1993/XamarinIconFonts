@@ -6,7 +6,7 @@ namespace IconFonts
 	{
 		public App()
 		{
-			this.MainPage = new MainPage();
+			this.MainPage = new NavigationPage(new MainPage());
 		}
 	}
 }

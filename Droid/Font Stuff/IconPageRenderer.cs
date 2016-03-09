@@ -16,7 +16,7 @@ namespace IconFonts.Droid
 			var actionBar = ((Activity)this.Context)?.ActionBar;
 			if (actionBar != null && !string.IsNullOrEmpty(tabPage?.TabIcon))
 			{
-				actionBar.SetIcon(new FontDrawable(this.Context, tabPage.TabIcon, Color.Black.ToAndroid(), 32));
+				actionBar.SetIcon(new FontDrawable(this.Context, tabPage.TabIcon, Color.White.ToAndroid(), 32));
 			}
 		}
 	}
